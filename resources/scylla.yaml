@@ -506,3 +506,6 @@ skip_wait_for_gossip_to_settle: 0
 # When we concurrently restart nodes, they'll lock up on boot for 300 seconds
 # by default.
 shadow_round_ms: 1000
+
+experimental_features:
+  - raft
